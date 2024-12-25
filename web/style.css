@@ -64,11 +64,13 @@ nav .start-portefolio, a:nth-child(4):hover~.animation {
   left: 310px;
   background-color: #9b59b6;
 }
+
 nav .start-contact, a:nth-child(5):hover~.animation {
-  width: 120px;
-  left: 470px;
-  background-color: #e62222;
+  width: 160px;
+  left: 455px;
+  background-color: #d15454;
 }
+
 
 body {
   font-size: 12px;
@@ -95,11 +97,20 @@ p {
     color: #ecf0f1;
     font-family: 'Cherry Swash',cursive;
     font-size: 16px;
+    text-align: justify;
 }
 
 h2 {
   color: white;
   font-size: 25px;
+}
+
+img {
+  margin: 20px;
+}
+
+h3 {
+  color: white;
 }
 
 .caja {
@@ -167,6 +178,7 @@ h2 {
     font-size: 16px;
     font-weight: bold;
     font-family: 'Cherry Swash',cursive;
+    text-align: justify;
     border-radius: 5px;
     transform: translateY(100%);
     opacity: 0;
