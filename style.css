@@ -89,6 +89,31 @@ h1 {
   font-family: 'Cherry Swash', cursive;
 }
 
+p::selection{
+  background-color: #9b59b6;
+}
+
+h1::selection{
+  background-color: #9b59b6;
+}
+
+h2::selection{
+  background-color: #9b59b6;
+}
+
+h3::selection{
+  background-color: #9b59b6;
+}
+code::selection{
+  background-color: #9b59b6;
+}
+pre::selection{
+  background-color: #9b59b6;
+}
+br::selection{
+  background-color: #9b59b6;
+}
+
 p {
 
     bottom: 20px;
@@ -210,4 +235,8 @@ h3 {
   .contenedor:hover .texto {
     transform: translateY(0);
     opacity: 1;
+  }
+
+  body {
+    cursor: url('img/cursor.png') 16 16 , auto;
   }
