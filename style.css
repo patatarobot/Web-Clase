@@ -113,6 +113,15 @@ pre::selection{
 br::selection{
   background-color: #9b59b6;
 }
+li::selection{
+  background-color: #9b59b6;
+}
+u::selection{
+  background-color: #9b59b6;
+}
+img::selection{
+  background-color: #9b59b6;
+}
 
 p {
 
@@ -237,6 +246,6 @@ h3 {
     opacity: 1;
   }
 
-  body {
-    cursor: url('img/cursor.png') 16 16 , auto;
+  html {
+    cursor: url('img/cursorkirby.png'), auto;
   }
