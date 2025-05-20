@@ -2,7 +2,7 @@ nav {
   margin: 27px auto 0;
 
   position: relative;
-  width: 590px;
+  width: 790px;
   height: 50px;
   background-color: #000000;
   border-radius: 8px;
@@ -39,11 +39,20 @@ a:nth-child(3) {
   width: 100px;
 }
 a:nth-child(4) {
-  width: 160px;
+  width: 120px;
 }
 a:nth-child(5) {
   width: 120px;
 }
+
+a:nth-child(6) {
+  width: 100px;
+}
+
+a:nth-child(7) {
+  width: 20px;
+}
+
 nav .start-home, a:nth-child(1):hover~.animation {
   width: 100px;
   left: 0;
@@ -60,15 +69,27 @@ nav .start-blog, a:nth-child(3):hover~.animation {
   background-color: #3c20dd;
 }
 nav .start-portefolio, a:nth-child(4):hover~.animation {
-  width: 160px;
+  width: 110px;
   left: 310px;
   background-color: #9b59b6;
 }
 
 nav .start-contact, a:nth-child(5):hover~.animation {
-  width: 160px;
-  left: 455px;
+  width: 155px;
+  left: 420px;
   background-color: #d15454;
+}
+
+nav .start-ia, a:nth-child(6):hover~.animation {
+  width: 60px;
+  left: 570px;
+  background-color: #daca3b;
+}
+
+nav .start-redes, a:nth-child(7):hover~.animation {
+  width: 100px;
+  left: 630px;
+  background-color: #65ca3e;
 }
 
 
@@ -248,4 +269,48 @@ h3 {
 
   html {
     cursor: url('img/cursorkirby.png'), auto;
+  }
+
+  .carrusel {
+    position: relative;
+    margin-left: 100px;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+
+  .imagenes {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .imagenes img {
+    width: 800px;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .boton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 18px;
+  }
+
+  .izquierda {
+    left: 10px;
+  }
+
+  .derecha {
+    right: 10px;
   }
